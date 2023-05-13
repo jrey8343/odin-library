@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+  padding: 2rem;
+}
+.form {
+  display: grid;
+  justify-content: center;
+}
+
+.submit {
+  width: fit-content;
+  justify-self: center;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background: cornflowerblue;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.submit:hover {
+  cursor: pointer;
+  background: lightblue;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+  gap: 8px;
+}
+
+.field {
+  display: grid;
+}
+
+.wrapper {
+  padding: 2rem;
+}
+.bookList {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  display: grid;
+  padding: 1rem;
+  list-style: none;
+  border: 2px solid wheat;
+  border-radius: 8px;
+  background: wheat;
+}
+
+.remove {
+  justify-self: end;
+}

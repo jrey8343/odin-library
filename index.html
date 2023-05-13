@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+  <header>
+    <h1>My Reading List</h1>
+  </header>
+  <div class="form">
+    <form action="#" method="post">
+      <div class="field">
+        <label for="title">Book Title:</label>
+        <input type="text" name="title" id="title">
+      </div>
+      <div class="field">
+        <label for="author">Author:</label>
+        <input type="text" name="author" id="author">
+      </div>
+      <div class="field">
+        <label for="release_year">Year of Release:</label>
+        <input type="text" name="release_year" id="release_year">
+      </div>
+      <div class="field">
+        <label for="pages">Pages:</label>
+        <input type="text" name="pages" id="pages">
+      </div>
+      <button class="submit" type="submit">Add Book To Library</button>
+    </form>
+  </div>
+  <div class="wrapper">
+    <ul class="bookList"></ul>
+  </div>
+</body>
+
+</html>
